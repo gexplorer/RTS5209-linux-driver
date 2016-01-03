@@ -272,7 +272,7 @@ struct scsi_host_template rtsx_host_template = {
 	
 	.name =				CR_DRIVER_NAME,
 	.proc_name =			CR_DRIVER_NAME,
-	.proc_info =			proc_info,
+	//.proc_info =			proc_info,
 	.info =				host_info,
 
 	
